@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "@google/generative-ai": "^0.3.1",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongodb": "^6.6.2",
+    "mongoos": "^0.0.1-security",
+    "mongoose": "^8.4.0",
+    "openai": "^4.47.1"
+  },
+  "name": "yes",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kirtan P Amrutiya",
+  "license": "ISC",
+  "description": ""
+}
