@@ -9,8 +9,8 @@ require('dotenv').config();
 const Message = require('./models/message');
 const Conversation = require('./models/conversation');
 
-const MONGO_URI = "mongodb+srv://papadragonyt:9510941315@cluster0.po4dsm2.mongodb.net/"
-const OPENAI_API_KEY = "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"
+const MONGO_URI = "mongodbURL"
+const OPENAI_API_KEY = "your_api_key_here7"
 
 mongoose.connect(MONGO_URI, { useNewUrlParser: true, useUnifiedTopology: true });
 
@@ -111,3 +111,4 @@ app.listen(3000, () => {
 });
 
 // http://127.0.0.1:3000/message/new
+
